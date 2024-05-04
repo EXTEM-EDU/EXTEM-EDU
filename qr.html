@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(./bgw1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+        }
+        
+        .main-image {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        
+        .icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .icon {
+            margin: 0 10px;
+            font-size: 30px;
+            color: #555;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .card {
+                max-width: 300px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .card {
+                max-width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <img src="./extem.png" alt="Main Image" class="main-image">
+        <h2>Follow Us</h2>
+        <div class="icons">
+            <a href="https://www.instagram.com/extem_edu?igsh=b25kbm9qbHdmMXlt" class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 30px; height: 30px;"></a>
+            <a href="https://www.facebook.com/profile.php?id=61558661334538&mibextid=ZbWKwL" class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 30px; height: 30px;"></a>
+            <a href="https://x.com/extemeducation?t=923jGOkO5Vk9qn13VGB1qA&s=09" class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="Twitter" style="width: 30px; height: 30px;"></a>
+            <a href="https://youtube.com/@extemeducation?si=22opicE-isD8gvpF" class="icon"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" style="width: 30px; height: 30px;"></a>
+            <a href="https://www.linkedin.com/in/extem-education-390692303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon"><img src="./317750_linkedin_icon.png" alt="YouTube" style="width: 30px; height: 30px;"></a>
+        </div>
+    </div>
+    
+</body>
+</html>
